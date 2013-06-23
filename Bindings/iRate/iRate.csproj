@@ -8,8 +8,8 @@
     <ProjectGuid>{99DF862E-B92E-48C5-85CE-644BE15A9347}</ProjectGuid>
     <ProjectTypeGuids>{F5B4F3BC-B597-4E2B-B552-EF5D8A32436F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>AlexTouch.iRate</RootNamespace>
-    <AssemblyName>AlexTouch.iRate</AssemblyName>
+    <RootNamespace>iRate</RootNamespace>
+    <AssemblyName>iRate</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>

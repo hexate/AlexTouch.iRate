@@ -1,6 +1,6 @@
 using System;
 
-namespace AlexTouch.iRate
+namespace iRateBinding
 {
 	public enum iRateErrorCode
 	{

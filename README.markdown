@@ -3,7 +3,7 @@ AlexTouch.iRate
 
 This is a MonoTouch Binding for iRate library, you just need to add the AlexTouch.iRate.dll to you project references and add the following using statement to your source file.
 
-			using AlexTouch.iRate;
+			using iRateBinding;
 
 In your finishedlaunching method you can configure the iRate instance as needed, 
 
@@ -12,7 +12,7 @@ In your finishedlaunching method you can configure the iRate instance as needed,
 						iRate r = iRate.SharedInstance();
 						
 						r.UserDidAttemptToRateApp += delegate {
-							Console.WriteLine("User Did Attemp to Rate App");
+							Console.WriteLine("User Did Attempt to Rate App");
 						};
 
 						r.CouldNotConnectToAppStore += delegate {
@@ -31,7 +31,7 @@ In your finishedlaunching method you can configure the iRate instance as needed,
 							Console.WriteLine("User Requested to be reminded l8ters");
 						};
 
-						r.PreviewMode = true; // Set this to true If you want to test it
+						r.PreviewMode = true; // Set this to true if you want to test it
 						
 						// you can find this info in itunes connect ;)
 						r.AppStoreID = <your appstore id here>;

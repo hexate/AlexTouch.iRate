@@ -5,7 +5,7 @@ using MonoTouch.ObjCRuntime;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace AlexTouch.iRate
+namespace iRateBinding
 {
 	[BaseType (typeof (NSObject),
 	Delegates=new string [] {"WeakDelegate"},
