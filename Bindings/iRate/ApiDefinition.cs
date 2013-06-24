@@ -123,6 +123,9 @@ namespace iRateBinding
 		
 		[Export ("delegate", ArgumentSemantic.Assign)][NullAllowed]
 		NSObject WeakDelegate { get; set; }
+
+		[Export ("logEvent:")]
+		void LogEvent (bool deferPrompt);
 	}
 	
 	[BaseType (typeof (NSObject))]
