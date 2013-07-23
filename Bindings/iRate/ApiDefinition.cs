@@ -94,7 +94,7 @@ namespace iRateBinding
 		[Export ("firstUsed")]
 		NSDate FirstUsed { get; set; }
 		
-		[Export ("lastReminded")]
+		[Export ("lastReminded"), NullAllowed]
 		NSDate LastReminded { get; set; }
 		
 		[Export ("usesCount", ArgumentSemantic.Assign)]
